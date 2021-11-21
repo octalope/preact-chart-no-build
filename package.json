@@ -1,0 +1,19 @@
+{
+  "name": "preact-chart-no-build",
+  "version": "1.0.0",
+  "description": "A no-build preact sample with Chart.js.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./src",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "live-server --no-browser  --port=8000 ./src"
+  },
+  "author": "Steve Brooks <steve.c.brooks@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.30.0",
+    "eslint-config-airbnb": "^19.0.0",
+    "eslint-config-preact": "^1.2.0",
+    "live-server": "^1.1.0"
+  }
+}

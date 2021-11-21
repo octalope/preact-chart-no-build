@@ -1,0 +1,20 @@
+body {
+	background-color: #161000;
+	color: #ffc000;
+	/* text-shadow: 0 0 0.1em #ffb000, 0 0 0.2em #885500; */
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 1.25em;
+	font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  max-height: 200px;
+}
